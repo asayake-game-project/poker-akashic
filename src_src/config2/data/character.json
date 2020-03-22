@@ -1,0 +1,91 @@
+{
+  "data":{
+    "you": {
+      "id": 5000,
+      "name": "you",
+      "image": "character/you",
+      "type": "teacher",
+      "display_name": "あなた",
+      "serifs": {
+        "allin": "オールイン",
+        "raise": "レイズ",
+        "call": "コール",
+        "check": "チェック",
+        "fold": "フォールド",
+        "praise": "ええよ",
+        "scold": "あかんね"
+      }
+    },
+    "ai": {
+      "id":2525,
+      "name": "ai",
+      "image": "character/ai",
+      "type": "learn",
+      "display_name": "AIちゃん",
+      "serifs":{
+        "allin": "オールイン",
+        "raise": "レイズ",
+        "call": "コール",
+        "check": "チェック",
+        "fold": "フォールド",
+        "normal": "test",
+        "happy": "テスト♪",
+        "sad": "てすと。。。",
+        "praise": "やったーー",
+        "scold": "ごめんなさい。。。"
+      }
+    },
+    "any": {
+      "id":12345,
+      "name": "any",
+      "image": "character/any",
+      "type": "anyhand",
+      "display_name": "エニー",
+      "serifs":{
+        "allin": "オールイン",
+        "raise": "レイズ",
+        "call": "コール",
+        "check": "チェック",
+        "fold": "フォールド",
+        "normal": "test",
+        "happy": "テスト♪",
+        "sad": "てすと。。。"
+      }
+    },
+    "docile": {
+      "id":10000,
+      "name": "docile",
+      "image": "character/any",
+      "type": "docile",
+      "display_name": "正直",
+      "serifs":{
+        "allin": "オールイン",
+        "raise": "レイズ",
+        "call": "コール",
+        "check": "チェック",
+        "fold": "フォールド",
+        "normal": "test",
+        "happy": "テスト♪",
+        "sad": "てすと。。。"
+      }
+    },
+    "kyouka": {
+      "id":114514,
+      "name": "kyouka",
+      "image": "character/any",
+      "type": "learn",
+      "display_name": "きょうか",
+      "data_file_prefix":"kyouka_",
+      "serifs":{
+        "allin": "オールイン",
+        "raise": "レイズ",
+        "call": "コール",
+        "check": "チェック",
+        "fold": "フォールド",
+        "normal": "test",
+        "happy": "テスト♪",
+        "sad": "てすと。。。"
+      }
+    }
+  }
+}

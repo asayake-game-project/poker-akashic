@@ -1,0 +1,18 @@
+export type TexasHoldemStatus = "NEXT_PLAYER"
+	| "NEXT_PHASE"
+	| "START_PHASE"
+	| "FOLD_END"
+	| "SHOWDOWN"
+	| "PLAYER_THINKING"
+	| "PLAYER_DESIDE"
+	| "AI_THINKING"
+	| "JUDGE_CONTINUE_GAME"
+	| "GAME_START"
+	| "GAME_END"
+	| "GAME_CONTINUE"
+	| "WAIT_NEXT_GAME"
+	| "RESTART"
+	| "MOVE_STUDY"
+	| "STUDY"
+	| "STUDY_RESULT";
+	

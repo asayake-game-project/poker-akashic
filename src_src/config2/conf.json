@@ -1,0 +1,17 @@
+{
+  "main":{
+    "width": 1920,
+    "height": 1080
+  },
+  "data":{
+    "player":{
+      "id": 5000
+    },
+    "ai": {
+      "dir_path": "data"
+    },
+    "loading": {
+      "image_path": "image/back_ground/loading.jpg"
+    }
+  }
+}

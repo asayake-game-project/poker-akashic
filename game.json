@@ -1,0 +1,821 @@
+{
+	"width": 1920,
+	"height": 1080,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"allin": {
+			"type": "image",
+			"width": 150,
+			"height": 135,
+			"path": "image/action/allin.png"
+		},
+		"allin_origin": {
+			"type": "image",
+			"width": 585,
+			"height": 526,
+			"path": "image/action/allin_origin.png"
+		},
+		"call": {
+			"type": "image",
+			"width": 150,
+			"height": 80,
+			"path": "image/action/call.png"
+		},
+		"call_origin": {
+			"type": "image",
+			"width": 537,
+			"height": 286,
+			"path": "image/action/call_origin.png"
+		},
+		"fold": {
+			"type": "image",
+			"width": 150,
+			"height": 62,
+			"path": "image/action/fold.png"
+		},
+		"fold_origin": {
+			"type": "image",
+			"width": 668,
+			"height": 277,
+			"path": "image/action/fold_origin.png"
+		},
+		"raise": {
+			"type": "image",
+			"width": 150,
+			"height": 127,
+			"path": "image/action/raise.png"
+		},
+		"raise_origin": {
+			"type": "image",
+			"width": 579,
+			"height": 490,
+			"path": "image/action/raise_origin.png"
+		},
+		"background001": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/back_ground/background001.jpg"
+		},
+		"background002": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/back_ground/background002.jpg"
+		},
+		"background003": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/back_ground/background003.jpg"
+		},
+		"bar00": {
+			"type": "image",
+			"width": 1200,
+			"height": 900,
+			"path": "image/back_ground/bar00.jpg"
+		},
+		"blue": {
+			"type": "image",
+			"width": 2274,
+			"height": 1813,
+			"path": "image/back_ground/blue.png"
+		},
+		"casino": {
+			"type": "image",
+			"width": 1406,
+			"height": 970,
+			"path": "image/back_ground/casino.png"
+		},
+		"casino_bk": {
+			"type": "image",
+			"width": 1200,
+			"height": 900,
+			"path": "image/back_ground/casino_bk.jpg"
+		},
+		"display_background": {
+			"type": "image",
+			"width": 1080,
+			"height": 1080,
+			"path": "image/back_ground/display_background.jpg"
+		},
+		"loading": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/back_ground/loading.jpg"
+		},
+		"now_loading": {
+			"type": "image",
+			"width": 1200,
+			"height": 850,
+			"path": "image/back_ground/now_loading.png"
+		},
+		"title_background": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/back_ground/title_background.png"
+		},
+		"title_bg": {
+			"type": "image",
+			"width": 1593,
+			"height": 1128,
+			"path": "image/back_ground/title_bg.png"
+		},
+		"bet_down": {
+			"type": "image",
+			"width": 57,
+			"height": 62,
+			"path": "image/button/bet_down.png"
+		},
+		"bet_slider": {
+			"type": "image",
+			"width": 42,
+			"height": 52,
+			"path": "image/button/bet_slider.png"
+		},
+		"bet_slider_bk": {
+			"type": "image",
+			"width": 53,
+			"height": 65,
+			"path": "image/button/bet_slider_bk.png"
+		},
+		"bet_up": {
+			"type": "image",
+			"width": 51,
+			"height": 62,
+			"path": "image/button/bet_up.png"
+		},
+		"bet_value_bar": {
+			"type": "image",
+			"width": 672,
+			"height": 25,
+			"path": "image/button/bet_value_bar.png"
+		},
+		"button": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/button.png"
+		},
+		"button1": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/button1.png"
+		},
+		"button2": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/button2.png"
+		},
+		"button3": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/button3.png"
+		},
+		"home": {
+			"type": "image",
+			"width": 113,
+			"height": 90,
+			"path": "image/button/home.png"
+		},
+		"homeru": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/homeru.png"
+		},
+		"login": {
+			"type": "image",
+			"width": 395,
+			"height": 137,
+			"path": "image/button/login.png"
+		},
+		"login_button": {
+			"type": "image",
+			"width": 318,
+			"height": 126,
+			"path": "image/button/login_button.png"
+		},
+		"online_ai_battle": {
+			"type": "image",
+			"width": 559,
+			"height": 137,
+			"path": "image/button/online_ai_battle.png"
+		},
+		"save": {
+			"type": "image",
+			"width": 120,
+			"height": 120,
+			"path": "image/button/save.png"
+		},
+		"shikaru": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/shikaru.png"
+		},
+		"skip": {
+			"type": "image",
+			"width": 317,
+			"height": 125,
+			"path": "image/button/skip.png"
+		},
+		"title_ai_battle": {
+			"type": "image",
+			"width": 556,
+			"height": 98,
+			"path": "image/button/title_ai_battle.png"
+		},
+		"title_ai_status": {
+			"type": "image",
+			"width": 556,
+			"height": 98,
+			"path": "image/button/title_ai_status.png"
+		},
+		"title_battle": {
+			"type": "image",
+			"width": 556,
+			"height": 98,
+			"path": "image/button/title_battle.png"
+		},
+		"title_button_ai_vs_ai": {
+			"type": "image",
+			"width": 700,
+			"height": 100,
+			"path": "image/button/title_button_ai_vs_ai.png"
+		},
+		"title_button_battle_ai": {
+			"type": "image",
+			"width": 700,
+			"height": 100,
+			"path": "image/button/title_button_battle_ai.png"
+		},
+		"title_button_exit": {
+			"type": "image",
+			"width": 700,
+			"height": 100,
+			"path": "image/button/title_button_exit.png"
+		},
+		"title_button_grow_ai": {
+			"type": "image",
+			"width": 700,
+			"height": 100,
+			"path": "image/button/title_button_grow_ai.png"
+		},
+		"title_button_status": {
+			"type": "image",
+			"width": 700,
+			"height": 100,
+			"path": "image/button/title_button_status.png"
+		},
+		"title_exit": {
+			"type": "image",
+			"width": 556,
+			"height": 98,
+			"path": "image/button/title_exit.png"
+		},
+		"title_study": {
+			"type": "image",
+			"width": 556,
+			"height": 98,
+			"path": "image/button/title_study.png"
+		},
+		"ai_angry": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/ai_angry.png"
+		},
+		"ai_happy": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/ai_happy.png"
+		},
+		"ai_normal": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/ai_normal.png"
+		},
+		"ai_normal_all": {
+			"type": "image",
+			"width": 330,
+			"height": 828,
+			"path": "image/character/ai_normal_all.png"
+		},
+		"ai_sad": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/ai_sad.png"
+		},
+		"any_angry": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/any_angry.png"
+		},
+		"any_happy": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/any_happy.png"
+		},
+		"any_normal": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/any_normal.png"
+		},
+		"any_sad": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/any_sad.png"
+		},
+		"you_angry": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/you_angry.png"
+		},
+		"you_happy": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/you_happy.png"
+		},
+		"you_normal": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/you_normal.png"
+		},
+		"you_sad": {
+			"type": "image",
+			"width": 300,
+			"height": 300,
+			"path": "image/character/you_sad.png"
+		},
+		"down": {
+			"type": "image",
+			"width": 121,
+			"height": 132,
+			"path": "image/down.png"
+		},
+		"card": {
+			"type": "image",
+			"width": 305,
+			"height": 164,
+			"path": "image/icon/card.png"
+		},
+		"fukidashi_shita": {
+			"type": "image",
+			"width": 336,
+			"height": 177,
+			"path": "image/icon/fukidashi_shita.png"
+		},
+		"fukidashi_ue": {
+			"type": "image",
+			"width": 336,
+			"height": 177,
+			"path": "image/icon/fukidashi_ue.png"
+		},
+		"lose": {
+			"type": "image",
+			"width": 260,
+			"height": 130,
+			"path": "image/icon/lose.png"
+		},
+		"pot_get": {
+			"type": "image",
+			"width": 797,
+			"height": 337,
+			"path": "image/icon/pot_get.png"
+		},
+		"pot_get_400x200": {
+			"type": "image",
+			"width": 400,
+			"height": 169,
+			"path": "image/icon/pot_get_400x200.png"
+		},
+		"rank_card": {
+			"type": "image",
+			"width": 235,
+			"height": 150,
+			"path": "image/icon/rank_card.png"
+		},
+		"rank_card_origin": {
+			"type": "image",
+			"width": 360,
+			"height": 230,
+			"path": "image/icon/rank_card_origin.png"
+		},
+		"select_forbidden": {
+			"type": "image",
+			"width": 166,
+			"height": 156,
+			"path": "image/icon/select_forbidden.png"
+		},
+		"serif": {
+			"type": "image",
+			"width": 213,
+			"height": 100,
+			"path": "image/icon/serif.png"
+		},
+		"win": {
+			"type": "image",
+			"width": 250,
+			"height": 130,
+			"path": "image/icon/win.png"
+		},
+		"chip": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/material/chip.png"
+		},
+		"dealer": {
+			"type": "image",
+			"width": 100,
+			"height": 100,
+			"path": "image/material/dealer.png"
+		},
+		"poker_table": {
+			"type": "image",
+			"width": 1650,
+			"height": 901,
+			"path": "image/material/poker_table.png"
+		},
+		"table": {
+			"type": "image",
+			"width": 1920,
+			"height": 1080,
+			"path": "image/material/table.png"
+		},
+		"title1": {
+			"type": "image",
+			"width": 941,
+			"height": 167,
+			"path": "image/string/title1.png"
+		},
+		"title2": {
+			"type": "image",
+			"width": 566,
+			"height": 183,
+			"path": "image/string/title2.png"
+		},
+		"c01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c01.png"
+		},
+		"c02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c02.png"
+		},
+		"c03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c03.png"
+		},
+		"c04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c04.png"
+		},
+		"c05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c05.png"
+		},
+		"c06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c06.png"
+		},
+		"c07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c07.png"
+		},
+		"c08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c08.png"
+		},
+		"c09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c09.png"
+		},
+		"c10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c10.png"
+		},
+		"c11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c11.png"
+		},
+		"c12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c12.png"
+		},
+		"c13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/c13.png"
+		},
+		"d01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d01.png"
+		},
+		"d02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d02.png"
+		},
+		"d03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d03.png"
+		},
+		"d04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d04.png"
+		},
+		"d05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d05.png"
+		},
+		"d06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d06.png"
+		},
+		"d07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d07.png"
+		},
+		"d08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d08.png"
+		},
+		"d09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d09.png"
+		},
+		"d10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d10.png"
+		},
+		"d11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d11.png"
+		},
+		"d12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d12.png"
+		},
+		"d13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/d13.png"
+		},
+		"h01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h01.png"
+		},
+		"h02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h02.png"
+		},
+		"h03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h03.png"
+		},
+		"h04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h04.png"
+		},
+		"h05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h05.png"
+		},
+		"h06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h06.png"
+		},
+		"h07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h07.png"
+		},
+		"h08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h08.png"
+		},
+		"h09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h09.png"
+		},
+		"h10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h10.png"
+		},
+		"h11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h11.png"
+		},
+		"h12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h12.png"
+		},
+		"h13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/h13.png"
+		},
+		"s01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s01.png"
+		},
+		"s02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s02.png"
+		},
+		"s03": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s03.png"
+		},
+		"s04": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s04.png"
+		},
+		"s05": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s05.png"
+		},
+		"s06": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s06.png"
+		},
+		"s07": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s07.png"
+		},
+		"s08": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s08.png"
+		},
+		"s09": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s09.png"
+		},
+		"s10": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s10.png"
+		},
+		"s11": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s11.png"
+		},
+		"s12": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s12.png"
+		},
+		"s13": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/s13.png"
+		},
+		"x01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/x01.png"
+		},
+		"x02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/x02.png"
+		},
+		"z01": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/z01.png"
+		},
+		"z02": {
+			"type": "image",
+			"width": 150,
+			"height": 225,
+			"path": "image/trump/z02.png"
+		},
+		"up": {
+			"type": "image",
+			"width": 108,
+			"height": 132,
+			"path": "image/up.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3"
+	}
+}

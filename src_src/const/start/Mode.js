@@ -1,0 +1,10 @@
+export const LOGIN = 'LOGIN';
+export const REGISTER = 'REGISTER';
+export const RANDOM_AI_BATTLE = 'RANDOM_AI_BATTLE';
+export const TITLE = 'TITLE';
+export const NOT_DICIDED = 'NOT_DICIDED';
+export const STUDY = 'STUDY';
+export const BATTLE = 'BATTLE';
+export const AI_BATTLE = 'AI_BATTLE';
+export const AI_STATUS = 'AI_STATUS';
+export const EXIT = 'EXIT';

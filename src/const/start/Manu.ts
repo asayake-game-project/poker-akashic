@@ -1,0 +1,1 @@
+export type Menu = "LOGIN" | "REGISTER" | "RANDOM_AI_BATTLE" | "TITLE" | "NOT_DICIDED" | "STUDY" | "BATTLE" | "AI_BATTLE" | "AI_STATUS" | "EXIT";
